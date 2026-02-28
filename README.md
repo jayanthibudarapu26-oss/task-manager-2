@@ -1,22 +1,22 @@
-# ✅ Task Manager App
+# Task Manager App
 
 A simple and beautiful Task Manager web application built with React.js.
 
-## 🚀 Features
+##  Features
 - Add new tasks
 - Mark tasks as completed / pending
 - Delete tasks
 - Filter tasks (All / Pending / Completed)
 - Data persists using LocalStorage
-- Animated UI with Lo-Fi Night Study theme
 
-## 🛠️ Tech Stack
+
+##  Tech Stack
 - React.js (Functional Components)
 - React Hooks (useState, useEffect)
-- CSS3 Animations
+
 - LocalStorage for data persistence
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. Clone the repository:
    git clone https://github.com/jayanthibudarapu26-oss/task-manager-2.git
@@ -33,16 +33,21 @@ A simple and beautiful Task Manager web application built with React.js.
 5. Open your browser at:
    http://localhost:3000
 
-## 📁 Project Structure
-```
-src/
-├── components/
-│   ├── TaskInput.js
-│   ├── TaskList.js
-│   └── TaskItem.js
-├── App.js
-├── App.css
-└── index.js
-```
+## Project Structure
+src/ – Main source folder
 
-## 👩‍💻 Built by Jayanthi Budarapu
+components/ – Reusable UI components
+
+      TaskInput.js – Add tasks
+
+      TaskList.js – Show tasks
+
+      TaskItem.js – Single task view
+
+App.js – Main app component
+
+App.css – App styling
+
+index.js – App entry point
+
+##  Built by Jayanthi Budarapu
